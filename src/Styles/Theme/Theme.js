@@ -1,7 +1,7 @@
 export const lightMode = {
     color:{
         bgColor: '#ececec',
-        primaryColor: '#cbcbcb',
+        primaryColor: '#dfdcdc',
         textColor: '#232225',
         shadowColor: '#acacac',
     }

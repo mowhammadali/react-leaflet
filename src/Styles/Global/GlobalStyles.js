@@ -13,4 +13,9 @@ body{
     color: ${props => props.theme.color.textColor};
 }
 
+.leaflet-container{
+    width: 100%;
+    height: 100%;
+}
+
 `

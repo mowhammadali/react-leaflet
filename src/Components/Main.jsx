@@ -1,19 +1,19 @@
 import React from 'react';
-import styled from 'styled-components';
+
+// components
+import Map from './Map';
+import GeoJson from './GeoJson';
+
+// styles
+import { MainContainer } from '../Styles/Custom/Main';
 
 const Main = () => {
     return (
         <MainContainer>
-            
+            <Map />
+            <GeoJson />
         </MainContainer>
     );
 };
-
-const MainContainer = styled.div`
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-color: green;
-`
 
 export default Main;

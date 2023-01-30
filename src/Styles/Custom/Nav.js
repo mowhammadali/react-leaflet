@@ -7,8 +7,11 @@ export const NavContainer = styled.div`
     width: 100%;
     height: 80px;
     padding: 0 50px;
-    margin-bottom: 0px;
     box-shadow: 1px 1px 10px 3px ${props => props.theme.color.shadowColor};
+
+    @media screen and (max-width: 400px){
+        padding: 0 20px;
+    }
 
     .nav__left{
         display: flex;

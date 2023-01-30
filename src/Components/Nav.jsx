@@ -11,9 +11,7 @@ import { NavContainer } from '../Styles/Custom/Nav';
 import { ThemeContext } from '../Context/ThemeContextProvider';
 
 const Nav = () => {
-
     const {mode , handleMode} = useContext(ThemeContext);
-
     return (
         <NavContainer>
             <section className='nav__left'>
