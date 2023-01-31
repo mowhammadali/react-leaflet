@@ -15,7 +15,7 @@ import InterActiveMap from './InterActiveMap';
 import { GeoJsonContext } from '../Context/GeoJsonContextProvider';
 
 const Map = () => {
-
+    // coordinates
     const center = [51.483414, -0.115172];
 
     // data
