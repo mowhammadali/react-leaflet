@@ -12,12 +12,7 @@ const ThemeContextProvider = ({children}) => {
     )
 
     const handleMode = () => {
-        if(mode === 'light'){
-            setMode('dark');
-        }
-        else{
-            setMode('light');
-        }
+        mode === 'light' ? setMode('dark') : setMode('light');
     }
 
     useEffect(() => {
