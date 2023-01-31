@@ -18,7 +18,7 @@ const InterActiveMap = () => {
             drawCircle: true,
             drawMarker: true,
             customControls: true,
-            rotateMode: false,
+            rotateMode: true,
             cutPolygon: true,
             editMode: true,
             dragMode: true,
